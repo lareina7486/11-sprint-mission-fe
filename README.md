@@ -1,59 +1,18 @@
-# 🐼 판다마켓(Panda Market)
+# React + Vite
 
-판다마켓은 따뜻한 중고거래를 위한 커뮤니티 플랫폼입니다.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- 기간: 2025.12 ~ 진행중
-- Codeit 풀스택 개발자 과정
+Currently, two official plugins are available:
 
-## 🚀 Demo
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🔗 https://pandamarket-esther.netlify.app/
+## React Compiler
 
-## 🛠 Tech Stack
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-- HTML5
-- CSS3
-- JavaScript
-- Netlify Deployment
+Note: This will impact Vite dev & build performances.
 
-## ✨ Features
+## Expanding the ESLint configuration
 
-1. 상품 등록: 사진과 설명을 등록하여 판매 물건 업로드
-2. 문의 댓글: 상품에 대한 문의 남기고, 판매자가 답변하는 댓글 기능
-3. 자유 게시판: 다양한 주제로 친구들과 이야기를 나누고, 정보를 공유
-
-## 📁 Project Structure
-
-```
-11-SPRINT-MISSION-FE/
-│
-├─ index.html
-│
-├─ html/
-│ ├─ login.html
-│ ├─ items.html
-│ ├─ privacy.html
-│ ├─ faq.html
-│ └─ signup.html
-│
-├─ css/
-│ ├─ reset.css
-│ ├─ variables.css
-│ ├─ global.css
-│ ├─ main.css
-│ └─ pages/
-│    ├─ login.css
-│    └─ signup.css
-│
-├─ assets/
-│ ├─ images/
-│ └─ icons/
-│
-└─ js/
-  ├─ main.js
-  └─ interactions.js
-```
-
----
-
-본 프로젝트는 [코드잇](www.codeit.kr)의 소유이며, 교육 목적으로만 사용됩니다. © 2025 Codeit. All rights reserved.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
